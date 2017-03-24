@@ -13,7 +13,7 @@ class CreateTableInstansi extends Migration
      */
     public function up()
     {
-       Schema::create('sekolah', function (Blueprint $table) {
+       Schema::create('instansi', function (Blueprint $table) {
                 $table->increments('id');
                 $table->string('nama_instansi',20);
                 $table->string('alamat_instansi');
